@@ -1,6 +1,11 @@
 const router = require('express').Router();
 const registercurd = require('../models/registerM')
 
+
+
+router.get("/feed", (req,res)=>{
+    res.render('Registationform')
+})
 router.post("/",async function(req,res){
     await registercurd.create(req.body)
     res.send("Register Successfully!")
