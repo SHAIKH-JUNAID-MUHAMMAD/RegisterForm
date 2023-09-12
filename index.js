@@ -11,9 +11,6 @@ app.use(express.static('public'));
 app.use("/register",registrationapi);
 
 
-app.get("/", (req,res)=>{
-    res.render('Registationform')
-})
 
 
 
@@ -23,6 +20,9 @@ mongoose.connect('mongodb+srv://sjm231204:ENafdBkN9vkWZeD2@pos-cluster.9ntlfxa.m
     console.log(err.message)
 })
 
+app.get("/feed", (req,res)=>{
+    res.render('Registationform')
+})
 
 
 app.listen(port , ()=>{
