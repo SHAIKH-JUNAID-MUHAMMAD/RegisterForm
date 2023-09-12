@@ -1,0 +1,61 @@
+h2{
+    text-align: center;
+    border-radius: 20px;
+    width: 15%;
+    margin: 0 auto;
+}
+form{
+    border-radius: 20px;
+    width: 43%;
+    margin: 0 auto;
+    border-color: #FD3969;
+    /* background-color: #FD3969; */
+    opacity: 80%;
+    padding: 1vw 0;
+}
+table{
+    margin: 0 auto;
+    line-height: 35px;
+}
+label{
+    color: #fff;
+    font-weight: 700;
+}
+.alignment{
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+}
+.conditions{
+    display: inline-block;
+}
+.bcolor{
+    background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.buto{
+    
+    display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: blue;
+      font-weight: bold;
+      text-decoration: none;
+      color:white;
+      border-radius: 0px 0px 20px 20px;
+      border:none;
+      width: 100%;
+      cursor:pointer;
+}
+.buto:hover{
+    background-color: rgb(0, 48, 78);
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Prata&display=swap');
+
+.color{
+    background-color: #72ABEB;
+}
