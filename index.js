@@ -11,6 +11,11 @@ app.use(express.static('public'));
 app.use("/register",registrationapi);
 
 
+app.get("/", (req,res)=>{
+    res.render('Registationform')
+})
+
+
 
 mongoose.connect('mongodb+srv://sjm231204:ENafdBkN9vkWZeD2@pos-cluster.9ntlfxa.mongodb.net/RegisterStudents?retryWrites=true&w=majority').then((res)=>{
     console.log("Database is Connected!")
