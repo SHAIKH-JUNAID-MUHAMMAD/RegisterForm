@@ -15,7 +15,7 @@ app.use("/register",registrationapi);
 
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/Register').then((res)=>{
+mongoose.connect('mongodb+srv://sjm231204:ENafdBkN9vkWZeD2@pos-cluster.9ntlfxa.mongodb.net/Register?retryWrites=true&w=majority').then((res)=>{
     console.log("Database is Connected!")
 }).catch((err)=>{
     console.log(err.message)
