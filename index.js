@@ -27,7 +27,7 @@ mongoose.connect('mongodb+srv://sjm231204:ENafdBkN9vkWZeD2@pos-cluster.9ntlfxa.m
 // })
 
 app.get("/",function(req,res){
-    res.render(__dirname+'/views/Registationform.ejs')
+    res.render(__dirname+'/Views/Registationform.ejs')
 })
 
 
