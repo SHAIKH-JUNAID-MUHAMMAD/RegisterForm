@@ -20,9 +20,14 @@ mongoose.connect('mongodb+srv://sjm231204:ENafdBkN9vkWZeD2@pos-cluster.9ntlfxa.m
 }).catch((err)=>{
     console.log(err.message)
 })
+// mongoose.connect('mongodb://127.0.0.1:27017/Register').then((res)=>{
+//     console.log("Database is Connected!")
+// }).catch((err)=>{
+//     console.log(err.message)
+// })
 
 app.get("/",function(req,res){
-    res.render('Registationform')
+    res.render(__dirname+'/views/Registationform.ejs')
 })
 
 
