@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const registrationapi = require("./routes/Registration")
 
 app.set('view engine', 'ejs');
-app.use(express.static('public'));
+app.use(express.static(__dirname+'/public'));
 app.use(express.json())
 
 
